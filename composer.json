@@ -17,5 +17,6 @@
             "name": "Muhammad Ali",
             "email": "alibinsarwar2001@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
