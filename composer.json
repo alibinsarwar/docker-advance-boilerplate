@@ -6,14 +6,6 @@
         "laravel/sail": ">=1.0",
         "php": ">=8.2"
     },
-    "scripts": {
-        "post-install-cmd": [
-            "move-files"
-        ],
-        "move-files": [
-            "mv src/* ."
-        ]
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -26,5 +18,11 @@
             "email": "alibinsarwar2001@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "move-files": [
+            "cp -R src/. ./",
+            "rm -rf src/"
+        ]
+    }
 }
