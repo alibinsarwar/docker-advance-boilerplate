@@ -19,9 +19,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "scripts": {
-        "post-install-cmd": [
-            "php install.php"
-        ]
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ali\\DockerAdvanceBoilerplate\\PackageServiceProvider"
+            ]
+        }
     }
 }
