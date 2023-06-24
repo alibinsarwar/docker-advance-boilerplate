@@ -20,9 +20,8 @@
     ],
     "minimum-stability": "dev",
     "scripts": {
-        "move-files": [
-            "cp -R src/. ./",
-            "rm -rf src/"
+        "post-install-cmd": [
+            "php install.php"
         ]
     }
 }
