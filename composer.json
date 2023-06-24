@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "laravel/sail": ">=1.0",
-        "php": ">=8.2"
+        "php": "<=8.2"
     },
     "license": "MIT",
     "autoload": {
