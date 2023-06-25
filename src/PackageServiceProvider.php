@@ -7,9 +7,14 @@ use Illuminate\Filesystem\Filesystem;
 
 class PackageServiceProvider extends ServiceProvider
 {
+    public function register()
+    {
+        //
+    }
+
     public function boot()
     {
-        (new Filesystem)->copyDirectory(__DIR__.'/vendor/alibinsarwar/stub', __DIR__);
+        (new Filesystem)->copyDirectory(__DIR__.'/vendor/alibinsarwar/stubs', app_path('Http/Controllers'));
 
     }
 }
