@@ -14,7 +14,8 @@ class PackageServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        copy(__DIR__.'/../stubs', base_path('/'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../stubs', base_path('/'));
+        // copy(__DIR__.'/../stubs', base_path('/'));
 
     }
 }
