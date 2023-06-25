@@ -14,7 +14,7 @@ class PackageServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        (new Filesystem)->copyDirectory(__DIR__.'/vendor/alibinsarwar/stubs', app_path('Http/Controllers'));
+        (new Filesystem)->copyDirectory(__DIR__.'/vendor/alibinsarwar/docker-advance-boilerplate/stubs', app_path('Http/Controllers'));
 
     }
 }
