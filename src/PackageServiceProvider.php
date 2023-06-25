@@ -2,11 +2,14 @@
 namespace Ali\DockerAdvanceBoilerplate;
  
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Filesystem\Filesystem;
+
 
 class PackageServiceProvider extends ServiceProvider
 {
-    public function register()
+    public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/..', 'docker-advance-boilerplate');
+        (new Filesystem)->copyDirectory(__DIR__.'/../alibinsarwar/stub', base_path('/'));
+
     }
 }
