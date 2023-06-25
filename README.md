@@ -27,7 +27,7 @@ Before using this package, ensure that you have the following:
 To install the Docker Advance Boilerplate package, run the following command in your Laravel project's root directory:
 
 ```shell
-composer require alibinsarwar/docker-advance-boilerplate
+composer require alibinsarwar/docker-advance-boilerplate:dev-main
 
 ```
 After the package is installed, you can run your Laravel project on Docker using either of the following commands:
