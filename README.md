@@ -1,6 +1,6 @@
 # Docker Advance Boilerplate
 
-<p align="center"><img src="/art/logo.svg" alt="Docker Advance Boilerplate"></p>
+<p align="center"><img src="/art/logo.png" alt="Docker Advance Boilerplate"></p>
 
 The Docker Advance Boilerplate package simplifies running your Laravel project on Docker by providing a Docker YAML file with predefined scripts and image details. This package eliminates the need to create a Laravel project within a Docker environment, saving you time during project setup.
 
