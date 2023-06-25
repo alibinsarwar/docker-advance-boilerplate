@@ -19,7 +19,7 @@ The Docker Advance Boilerplate package aims to save you time and effort by provi
 Before using this package, ensure that you have the following:
 
 - Docker installed on your system.
-- PHP version greater than 8.2.
+- PHP version greater than equal to 8.2.
 - Laravel/Sail package, which is typically included by default in Laravel projects. If it's not present, you must install it first.
 
 ## Installation
