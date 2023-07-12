@@ -1,29 +1,29 @@
 {
-    "name": "alibinsarwar/docker-advance-boilerplate",
-    "description": "this pakage enable laravel application to use docker and all advance images which are being used to develop laravel application like meilisearch , selenium etc",
-    "type": "library",
-    "require": {
-        "laravel/sail": ">=1.0",
-        "php": ">=8.2"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Ali\\DockerAdvanceBoilerplate\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Muhammad Ali",
-            "email": "alibinsarwar2001@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ali\\DockerAdvanceBoilerplate\\PackageServiceProvider"
-            ]
-        }
+  "name": "alisarwar/docker-advance-boilerplate",
+  "description": "this pakage enable laravel application to use docker and all advance images which are being used to develop laravel application like meilisearch , selenium etc",
+  "type": "library",
+  "require": {
+    "laravel/sail": ">=1.0",
+    "php": ">=8.2"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ali\\DockerAdvanceBoilerplate\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Muhammad Ali",
+      "email": "alibinsarwar2001@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ali\\DockerAdvanceBoilerplate\\PackageServiceProvider"
+      ]
+    }
+  }
 }
